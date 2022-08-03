@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+.navbar-nav{
+  margin-left: auto;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #121212;
+  color:white;
+  overflow:hidden;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link,.navbar-brand{
+  color:white;
+  
 }
+li{
+  padding:10px 15px;
+}
+.banner{
+  margin-top:0;
+  padding:150px 100px;
+  background-image:url("https://cutewallpaper.org/28/dark-star-wallpaper-hd/2610819213.jpg");
+  background-position: top center;
+  background-size: cover;
+  
+}
+.banner .tagline{
+  font-weight:600;
+  letter-spacing: 0.8px;
+  font-size: 20px;
+  display:inline-block;
+}
+.banner h1{
+  font-size: 65px;
+  letter-spacing: 1px;
+  display:block;
+  line-height: 1;
+}
+.contact-container{
+  position:relative;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height:100vh;
+  min-width:100vw;
+  margin-top:0px;
+  padding:30px;
+  background: linear-gradient(to bottom right, rgb(44, 57, 139), rgb(134, 46, 61));
+  
+}
+.contact-container h1{
+  margin:0 auto;
+  font-size:42px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.contact-container .contact-links{
+  position:relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  margin-top: 80px;
+  
+}
+.contact-container .contact{
+  position: inherit;
+  height:280px;
+  width:30%;
+  background: rgba(0,0,0,0.322);
+  border-radius:20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: rgb(44, 42, 69);
+  text-decoration: none;
+  color:azure;
+  /* background: linear-gradient(to bottom right, blue, pink); */
+  }
+  .contact-container .contact .icon{
+    position: relative;
+    font-size: 130px;
+    color:white;
+  }
+ 
+.contact-container .contact h2{
+  position: relative;
+  margin-top: 15px;
+  font-size: 21px;
+  font-weight: 500;
+  display:flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration:none;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-container .contact h2 span{
+  font-size: 15px;
+  font-weight: 100;
+  margin-top:3px;
+  color:rgb(202,green,blue)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+
+
+
