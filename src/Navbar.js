@@ -5,7 +5,7 @@ import {faBars,faXmark} from "@fortawesome/free-solid-svg-icons";
 import './App.css';
 
 function Navbar() {
-  const [isMobile,setIsMobile]=useState(true);
+  const [isMobile,setIsMobile]=useState(false);
   return (
     <>
    <nav>
