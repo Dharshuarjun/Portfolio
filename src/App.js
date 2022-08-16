@@ -1,4 +1,3 @@
-
 import Contact from './Contact';
 import Skills from './Skills';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
