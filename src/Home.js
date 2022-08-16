@@ -3,10 +3,8 @@ import Banner from './Banner';
 
 function Home() {
   return (
-   <>
-   
    <Banner></Banner>
-   </>
+   
   )
 }
 
