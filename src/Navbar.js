@@ -1,30 +1,27 @@
-import React from 'react';
+import React,{useState} from 'react';
 import {Link} from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faBars,faXmark} from "@fortawesome/free-solid-svg-icons";
 import './App.css';
 
 function Navbar() {
+  const [isMobile,setIsMobile]=useState(true);
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-  <a className="navbar-brand" href="#">Navbar</a>
-  <div className="collapse navbar-collapse" id="navbarNav">
-    <ul className="navbar-nav active">
-      <li className="nav-item active">
-        <a className="nav-link" href="#">Home</a>
-      </li>
-      <li className="nav-item">
-      <Link className="nav-link" to="/skills">Skills</Link>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Projects</a>
-      </li>
-      <li className="nav-item">
-        <Link className="nav-link" to="/Contact">Contact</Link>
-      </li>
-     
+    <>
+   <nav>
+    
+  <ul className={isMobile?"nav-links-mobile":"nav-links"}onClick={()=>setIsMobile(false)}>
+   <a href="/">Home</a>
+    <a href="/Skills" className="ski">Skills</a>
+    <a href="/Projects">Projects</a>
+    <a href="/Contact">Contact</a>
     </ul>
-  </div>
-</nav>
-
+    <a className="mobile-menu"href="#" onClick={()=>setIsMobile(!isMobile)}>{isMobile?<FontAwesomeIcon icon={faXmark}/>:<FontAwesomeIcon icon={faBars}/>}</a>
+    
+    
+    
+   </nav>
+   </>
   )
 }
 

@@ -5,7 +5,7 @@ import Banner from './Banner';
 function Home() {
   return (
    <>
-   <Navbar></Navbar>
+   
    <Banner></Banner>
    </>
   )
