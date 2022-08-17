@@ -467,6 +467,7 @@ section#home.banner{
    }
    .headerskill{
     margin-top: 30%;
+    text-decoration-color: crimson
    }
    .menu{
     display: grid;
@@ -503,8 +504,23 @@ right:10%;
    .headerprojects{
     margin-top: 45%;
    }
-   
-   
+   img.shadow-sm.rounded-circle{
+   position:relative;
+   right:30%;
+   }
+   a.btn.btn-info.p-2.m-2.fs-4{
+position: absolute;
+display:inline;
+float:right;
+bottom: 39%;
+left:70%;
+color:black;
+background-color: #dee132;
+   }
+   a.btn.btn-info.p-2.m-2.fs-4:hover{
+    background-color: #95315c;
+    color:white;
+   } 
 }
 
 

@@ -10,7 +10,7 @@ function Banner() {
    <div className="container">
     <div className="row">
         <div className="col-xs-12 col-md-6 col-xl-7">
-            <span className="tagline">Welcome to portfolio</span>
+            <span className="tagline">Welcome to My portfolio</span>
            <h1 style={{paddingTop:"3px",color:"yellow",fontFamily:"serif"}}>
             
       
