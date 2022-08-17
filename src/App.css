@@ -286,7 +286,7 @@ li:nth-child(n) a:hover{
   top:20%;
   font-family: Cursive;
   text-decoration: underline;
-  text-decoration-color: rgb(183, 187, 75);
+  text-decoration-color: crimson;
 }
 .container1{
   min-height: 100vh;
@@ -467,7 +467,7 @@ section#home.banner{
    }
    .headerskill{
     margin-top: 30%;
-    text-decoration-color: crimson
+    text-decoration-color: crimson;
    }
    .menu{
     display: grid;
