@@ -319,6 +319,17 @@ li:nth-child(n) a:hover{
  right:25%;
   color:#121212;
 }
+a.btn.btn-info.p-2.m-2.fs-4{
+  position: absolute;
+  display:flex;
+  left:20%;
+  top:80%;
+height:80px;
+width:90px;
+font-size:1px;
+padding:1px;
+margin-top: 0%;
+}
 /* responsive media query start */
 @media(max-width:750px){
   body{
@@ -512,12 +523,35 @@ right:10%;
 position: absolute;
 display:inline;
 float:right;
-bottom: 39%;
+bottom: 30%;
 left:70%;
 color:black;
 background-color: #dee132;
    }
    a.btn.btn-info.p-2.m-2.fs-4:hover{
+    background-color: #95315c;
+    color:white;
+   } 
+}
+@media(min-width:350px){
+  /* a.btn.btn-info.p-2.m-2.fs-4{
+    position:absolute;
+    left:70%;
+  } */
+  /* img.shadow-sm.rounded-circle{
+    position: absolute;
+    left:1%;
+    
+  } */
+  a.btn.btn-info.p-2.m-2.fs-4{
+    position: absolute;
+    font-size:2px;
+    bottom:38%;
+   height:40px;
+   width:95px;
+   right:30%;
+  }
+  a.btn.btn-info.p-2.m-2.fs-4:hover{
     background-color: #95315c;
     color:white;
    } 
